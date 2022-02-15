@@ -1,0 +1,24 @@
+:root {
+  --primary: #a004a0;
+  --dark-primary: #580058;
+  --light-primary: #c402c4;
+  --dark-color: #333333;
+  --light-color: #ffffff;
+  --offwhite-color: #f7f7f7;
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+  --header1-text: bold 2.4rem "Noto Sans", sans-serif;
+  --header2-text: bold 2.2rem "Noto Sans", sans-serif;
+  --subtitle-text: italic 1.2rem "Noto Sans", sans-serif;
+  --text-small: 1.4rem "Noto Sans", sans-serif;
+  --text-normal: 1.6rem "Noto Sans", sans-serif;
+  --text-big: 2rem "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  font: var(--text-normal);
+}

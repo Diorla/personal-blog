@@ -1,0 +1,21 @@
+.news-category {
+  margin: 24px 0;
+}
+
+.category-title {
+  color: var(--dark-color);
+}
+
+.category-title > h2 {
+  margin-left: 4px;
+}
+
+.category-title:hover {
+  color: var(--primary);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

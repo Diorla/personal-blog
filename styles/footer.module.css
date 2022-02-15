@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  font: var(--text-small);
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  color: var(--light-primary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.directory {
+  font-size: var(--text-small);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.directory > a {
+  margin: 0 4px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}

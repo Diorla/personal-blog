@@ -1,0 +1,26 @@
+.news-card {
+  min-height: 300px;
+  width: clamp(200px, 100%, 480px);
+  box-shadow: 0 0 2px;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  background-image: url("https://loremflickr.com/320/240/random/all");
+  background-size: cover;
+  margin: 8px 0;
+}
+
+.news-card:hover > .news-title {
+  color: var(--primary);
+}
+
+.news-title {
+  background-color: white;
+  width: 100%;
+  min-height: 70px;
+  color: var(--dark-color);
+  text-align: center;
+  display: flex;
+  padding: 4px;
+  align-items: center;
+}

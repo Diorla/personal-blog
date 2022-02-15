@@ -1,0 +1,43 @@
+.header {
+  display: grid;
+  box-shadow: 0 0 4px var(--dark-color);
+  background-color: var(--light-color);
+  position: sticky;
+  top: 0;
+  grid-template-columns: 50px 1fr;
+  align-items: center;
+}
+
+.header > img {
+  height: 5rem;
+  margin-left: 0.4rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header a {
+  color: var(--dark-color);
+}
+
+h1 {
+  font: var(--header1-text);
+  margin: 0;
+}
+
+h2 {
+  font: var(--header2-text);
+  margin: 0;
+}
+
+.title {
+  font: var(--header2-text);
+}
+
+.subtitle {
+  font: var(--subtitle-text);
+}

@@ -1,0 +1,6 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 70px minmax(calc(100vh - 150px), auto) 80px;
+  grid-template-areas: "header" "body" "footer";
+  background-color: var(--offwhite-color);
+}
